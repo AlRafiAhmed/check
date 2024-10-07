@@ -7,27 +7,124 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-    <nav>
+    <nav class="py-7 bg-[#e3dfe8]  " >
         <div class="container m-auto">
-            <div class=""></div>
-                <div class="flex justify-between     ">
-                    <h1 class="w-1/5 font-black text-2xl p-4 w-fit rounded-full hover:text-white hover:bg-orange-600	">A.R.Ahmed</h1>
-                    <div>
-                        <input placeholder="Search" class="mt-4 rounded-full p-4 h-10  outline-none " type="text" >
-                        <i class="fa-solid fa-magnifying-glass text-2xl ml-4 hover:text-[#f21010]  cursor-pointer "></i>
-                    </div>
-                    <div class=" flex justify-between  w-2/5 p-4 bg-[#f3ec0c] rounded-full	">
-                            <a class=" w-fit text-xl  text-xl font-bold p-2 rounded-lg hover:text-white hover:bg-orange-600" href="">Home</a>
-                            <a class=" w-fit text-xl  font-bold p-2 rounded-lg hover:text-white hover:bg-orange-600" href="">About</a>
-                            <a class=" w-fit text-xl  font-bold p-2 rounded-lg hover:text-white hover:bg-orange-600" href="">Services</a>
-                            <a class=" w-fit text-xl  font-bold p-2 rounded-lg hover:text-white hover:bg-orange-600" href="">Design</a>
-                            <a class=" w-fit text-xl  font-bold p-2 rounded-lg hover:text-white hover:bg-orange-600" href="">Projects</a>
-                            <a class=" w-fit text-xl  font-bold p-2 rounded-lg hover:text-white hover:bg-orange-600" href="">Contact</a>
+                <div class="  flex justify-center   ">
+                    <div class=" flex justify-between  w-2/5  rounded-full	">
+                            <a class=" w-fit text-xl  text-xl font-bold p-2 rounded-bl-2xl rounded-tr-2xl hover:text-white hover:bg-orange-600" href="index.html">Home</a>
+                            <a class=" w-fit text-xl  font-bold p-2 rounded-bl-2xl rounded-tr-2xl hover:text-white hover:bg-orange-600" href="About.html">About</a>
+                            <a class=" w-fit text-xl  font-bold p-2 rounded-bl-2xl rounded-tr-2xl hover:text-white hover:bg-orange-600" href="design.html">Design</a>
+                            <a class=" w-fit text-xl  font-bold p-2 rounded-bl-2xl rounded-tr-2xl hover:text-white hover:bg-orange-600" href="project.html">Projects</a>
+                            <a class=" w-fit text-xl  font-bold p-2 rounded-bl-2xl rounded-tr-2xl hover:text-white hover:bg-orange-600" href="contact.html">Contact</a>
+                            
                     </div>  
                 </div>
             </div>
         </div>
     </nav>
+    <section class=" bg-[#FFC300]">
+        <div class="container m-auto pt-20  ">
+            <div class="main flex justify-between">
+                <div class="col-lg  w-3/5">
+                    <div class="text-center flex justify-center">
+                        <p class="text-2xl bg-white px-3  w-fit font-bold ">Hey...</p>
+                    </div>
+                    <h2 class="py-8 w-fit  text-4xl  font-black   ">Comprehensive solutions covering front-end, back-end, API integration, database management, DevOps, testing, and project management to bring your ideas to life.</h2>
+                   <p class="text-2xl font-semibold mt-4    ">If you want to expand or purchase it in a specific context.</p>
+                   <p class="text-2xl font-semibold mt-4    ">Let me know if you need any adjustments!</p>
+                   <div class="mt-8">
+                   
+                   </div>
+                </div>
+                <div class="col-lg w-1/5">
+                    <img class="ml-auto animate-slide-in-right" src="img/service.png" alt="">
+                </div>
+                
+                <style>
+                @layer utilities {
+                    .animate-slide-in-right {
+                        opacity: 0;
+                        transform: translateX(100px); 
+                        animation: slideInRight 1s forwards;
+                    }
+                
+                    @keyframes slideInRight {
+                        to {
+                            transform: translateX(0); 
+                            opacity: 1;
+                        }
+                    }
+                }
+                </style>
+                
+            </div>
+        </div>
+    </section>
+    <section class="py-12 bg-[#FFC300]">
+        <div class="container m-auto    ">
+            <div class="text-center flex justify-center pb-12   ">
+            <p class="text-2xl bg-white px-3  w-fit font-bold ">Services</p>
+        </div>
+          <div  class="flex "> 
+            <div class="w-1/4 bg-orange-600  p-4  rounded-xl ">
+              <h3 class="font-semibold text-2xl text-white pb-4 " >Web Pages Design</h3>
+              <p class="py-2 text-xl ">Responsive Design</p>
+              <p class="py-2 text-xl ">SEO Optimaisation</p>
+              <p class="py-2 text-xl ">Figma/PSD to Html  </p>
+              <p class="py-2 text-xl ">User interface Design</p>
+              <p class="py-2 text-xl ">User experience Design</p>
+              <p class="py-2 text-xl ">Content anagement  System(CMS)</p>
+              <div class="mt-10 flex justify-center">
+                <a class="p-2 px-3  bg-white rounded-lg font-bold hover:bg-[#2708d5] hover:text-white fade-in" href="">
+                    Get
+                </a>
+               </div>
+            </div>
+            <div class="w-1/4 bg-orange-600  p-4  rounded-xl ml-4">
+                <h3 class="font-semibold text-2xl text-white pb-4 " >Front-End Development</h3>
+              <p class="py-2 text-xl ">HTML (HyperText Markup Language)</p>
+              <p class="py-2 text-xl ">CSS (Cascading Style Sheets)</p>
+              <p class="py-2 text-xl ">JavaScript  </p>
+              <p class="py-2 text-xl ">Frameworks and Libraries</p>
+              <p class="py-2 text-xl ">Version Control</p>
+              <p class="py-2 text-xl ">Performance Optimization   </p>
+              <div class="mt-10  flex justify-center">
+                <a class="p-2 px-3  bg-white rounded-lg font-bold hover:bg-[#2708d5] hover:text-white fade-in" href="">
+                    Get
+                </a>
+               </div>
+              </div>
+              <div class="w-1/4 bg-orange-600  p-4  rounded-xl ml-4 ">
+                <h3 class="font-semibold text-2xl text-white pb-4 " >Back-End Development</h3>
+              <p class="py-2 text-xl ">JavaScript (Node.js)</p>
+              <p class="py-2 text-xl ">PHP(A server-side)</p>
+              <p class="py-2 text-xl ">Python (Used in web development, data science, AI) </p>
+              <p class="py-2 text-xl ">Java Virtual Machine (JVM). </p>
+              <p class="py-2 text-xl ">Powers platforms like WordPress. </p>
+              <p class="py-2 text-xl ">SQL (Structured Query Language) </p>
+              <div class="mt-4   flex justify-center">
+                <a class="p-2 px-3  bg-white rounded-lg font-bold hover:bg-[#2708d5] hover:text-white fade-in" href="">
+                    Get
+                </a>
+               </div>
+              </div>
+              <div class="w-1/4 bg-orange-600  p-4 rounded-xl ml-4   ">
+                <h3 class="font-semibold text-2xl text-white pb-4 " >React Development</h3>
+              <p class="py-2 text-xl ">React Development Languages</p>
+              <p class="py-2 text-xl ">React Frameworks and Libraries</p>
+              <p class="py-2 text-xl ">Redux </p>
+              <p class="py-2 text-xl ">React Router   </p>
+              <p class="py-2 text-xl ">JSX (JavaScript XML)</p>
+              <p class="py-2 text-xl ">React  Hooks</p>
+              <div class="mt-10 flex justify-center">
+                <a class="p-2 px-3  bg-white rounded-lg font-bold hover:bg-[#2708d5] hover:text-white fade-in" href="   ">
+                    Get
+                </a>
+               </div>
+              </div>
+          </div>
+          </div>
+</section>
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
 </html>
